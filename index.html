@@ -9,51 +9,55 @@
 </head>
 
 <body>
-<div class="content">
-    <!--Picture section-->
-    <div class="picture">
-        <div class="logo">
-            <img src="sign-up-image.jpg" alt="">
-            <h1>Logo Placeholder</h1>
+    <div class="content">
+        <!--Picture section-->
+        <div class="picture">
+            <div class="logo">
+                <img src="sign-up-image.jpg" alt="">
+                <h1>Logo Placeholder</h1>
+            </div>
+        </div>
+
+        <!-- Form header and content-->
+        <div class="right">
+            <div class="sign-up-header" >
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>you know you want to.</p>
+            </div>
+            <form action="">
+                <h2 class="form-row-header">Lets do this!</h2>
+                <div class="form-input">
+                    <label for="first_name" class="left">first name</label >
+                    <input type="text" name="first_name" id="first_name" required>
+                </div>
+                <div class="form-input">
+                    <label for="last_name" class="right">last name</label>
+                    <input type="text" name="last_name" id="last_name" required>
+                </div>
+                <div class="form-input">
+                    <label for="email" class="left">email</label>
+                    <input type="email" name="user_email" id="user_email" required>
+                </div>
+                <div class="form-input">
+                    <label for="phone" class="right">phone number</label>
+                    <input type="tel" name="phone_number" id="phoner_number" required>
+                </div>
+                <div class="form-input">
+                    <label for="password" class="left">password</label>
+                    <input type="password" name="user_password" id="user_password" minlength="8" required>
+                </div>
+                <div class="form-input">
+                    <label for="password" class="right">confirm password</label>
+                    <input type="password" name="password_confirm" id="password_confirm" minlength="8" required>
+                </div>
+            </form>
+        </div>
+
+        <!--Create account and login section-->
+        <div class="bottom-section">
+            <button class="create-btn" type="submit">Create Account</button>
+            <h3 class="login">Already have an account? <a href="">Log in</a></h3>
         </div>
     </div>
-
-    <!--Header and form content-->
-    <div class="sign-up-header" >
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-        <p>you <em>know</em> you want to.</p>
-    </div>
-    <div class="form-content">
-        <form action="">
-            <h2>Lets do this!</h2>
-            <div class="form-row">
-                <label for="first_name">FIRST NAME</label >
-                <input type="text" name="first_name" id="first_name" required>
-                <label for="last_name">LAST NAME</label>
-                <input type="text" name="last_name" id="last_name" required>
-            </div>
-            <div class="form-row">
-                <label for="email">EMAIL</label>
-                <input type="email" name="user_email" id="user_email" required>
-
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" name="phone_number" id="phoner_number" required>
-            </div>
-            <div class="form-row">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="user_password" id="user_password" required>
-
-                <label for="password"> CONFIRM PASSWORD</label>
-                <input type="password" name="password_confirm" id="password_confirm" required>
-            </div>
-        </form>
-    </div>
-
-    <!--Create account and login section-->
-    <div class="bottom-section">
-        <button class="create-btn" type="submit">Create Account</button>
-        <h3 class="login">Already have an account? <a href="">Log in</a></h3>
-    </div>
-</div>
 </body>
 </html>
