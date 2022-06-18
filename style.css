@@ -6,6 +6,7 @@ body {
     flex-direction: row;
     background-color: white;
     font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
 }
 
 .img {
@@ -24,7 +25,7 @@ body {
 .img-description {
     margin-top: auto;
     margin-bottom: 10px;
-    font-size: 100%;
+    font-size: 50%;
     color: white;
     font-weight: 900;
 }
@@ -46,8 +47,16 @@ a {
     padding-right: 10%;
 }
 
+.form-info {
+    font-weight: bold;
+}
+
+.form-header {
+    margin-bottom: 5%;
+}
+
 .form-label {
-    font-weight: 900;
+    font-weight: bold;
     font-size: 20px;
     display: block;
     transition: all 0.5s;
@@ -81,8 +90,9 @@ a {
 form {
     padding-top: 3%;
     width: 80%;
+    margin-top: 4%;
     margin-left: 0%;
-    background-color: rgba(0, 0, 0, 0.034);
+    background-color: rgba(0, 0, 0, 0.040);
 }
 
 .inputs {
@@ -108,7 +118,7 @@ form {
     padding: 15px 30px;
     border-radius: 6px;
     border: none;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #657f9f;
     color: white;
 }
@@ -119,4 +129,10 @@ form {
 
 .login {
     color: #657f9f;
+    font-weight: bold;
+}
+
+.have-acct {
+    margin-top: 10%;
+    font-size: 1.2rem;
 }
