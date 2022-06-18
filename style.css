@@ -94,3 +94,29 @@ form {
 .inputs> :last-child {
     padding-left: 10%;
 }
+
+.form-end {
+    margin-top: 20px;
+    position: absolute;
+    font-size: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+    font-size: 30px;
+    background-color: #657f9f;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.login {
+    color: #657f9f;
+}
