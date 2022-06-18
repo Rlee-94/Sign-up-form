@@ -1,0 +1,35 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+.img {
+    display: flex;
+    width: 40%;
+    height: 94%;
+    margin: 1% 1% 1% 1%;
+    background: url(roberto-nickson-5ui0tfMC5ts-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.img-description {
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color: white;
+    font-weight: 900;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
