@@ -7,57 +7,64 @@
     <link rel="stylesheet" href="style.css">
     <title>Sign-up Page</title>
 </head>
-
 <body>
-    <div class="content">
-        <!--Picture section-->
-        <div class="picture">
-            <div class="logo">
-                <img src="sign-up-image.jpg" alt="">
-                <h1>Logo Placeholder</h1>
+    <div id="main">
+        <section id="left-section">
+            <div id="logo">
+                <img src="endroit-secret-mxTJm9ojjPE-unsplash.jpg" alt="endroit logo">
+                PLACEHOLDER
             </div>
-        </div>
-
-        <!-- Form header and content-->
-        <div class="right">
-            <div class="sign-up-header" >
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-                <p>you know you want to.</p>
-            </div>
-            <form action="">
-                <h2 class="form-row-header">Lets do this!</h2>
-                <div class="form-input">
-                    <label for="first_name" class="left">first name</label >
-                    <input type="text" name="first_name" id="first_name" required>
+            <p id="attribute">
+                Photo by
+                <a href="https://unsplash.com/@endroitsecret">Endroit secret</a>
+            </p>
+        </section>
+        <section id="right-section">
+            <p>
+                This is not a real online service! You know you need something like this in your life to 
+                help you realize your deepest dreams. Sign up <em>now</em> to get started.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+            <form method="post">
+                <div class="input-section">
+                    <h3>Lets do this!</h3>
+                    <div class="inputs">
+                        <div>
+                            <div>
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div>
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div>
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="password" required>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-input">
-                    <label for="last_name" class="right">last name</label>
-                    <input type="text" name="last_name" id="last_name" required>
-                </div>
-                <div class="form-input">
-                    <label for="email" class="left">email</label>
-                    <input type="email" name="user_email" id="user_email" required>
-                </div>
-                <div class="form-input">
-                    <label for="phone" class="right">phone number</label>
-                    <input type="tel" name="phone_number" id="phoner_number" required>
-                </div>
-                <div class="form-input">
-                    <label for="password" class="left">password</label>
-                    <input type="password" name="user_password" id="user_password" minlength="8" required>
-                </div>
-                <div class="form-input">
-                    <label for="password" class="right">confirm password</label>
-                    <input type="password" name="password_confirm" id="password_confirm" minlength="8" required>
-                </div>
+                <button type="submit" id="create-acct">Create Account</button>
             </form>
-        </div>
-
-        <!--Create account and login section-->
-        <div class="bottom-section">
-            <button class="create-btn" type="submit">Create Account</button>
-            <h3 class="login">Already have an account? <a href="">Log in</a></h3>
-        </div>
+            <p class="login">Already have an account? <a href="#">Log in</a></p>
+        </section>
     </div>
 </body>
 </html>
