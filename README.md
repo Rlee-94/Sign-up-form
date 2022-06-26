@@ -2,7 +2,7 @@
 
 Project to create a Sign-Up Form.
 
-🔗 **Live preview:** [here]
+🔗 **Live preview:** [here](https://rlee-94.github.io/Sign-up-form/)
 
 ## Built with
 
